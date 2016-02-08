@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Definition of Restrictions -->
+  <!-- Restrictions used in Battle Element -->
+  <!-- Restrictions used in List Element -->
+  <xs:simpleType name="listOptionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="country"/>
+      <xs:enumeration value="area"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Restrictions used in Country Element -->
+  <xs:simpleType name="techlevelType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="allianceType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="a"/>
+      <xs:enumeration value="b"/>
+      <xs:enumeration value="c"/>
+      <xs:enumeration value="n"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="colorType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Restrictions used in Area Element -->
+  <xs:simpleType name="constructionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="none"/>
+      <xs:enumeration value="city"/>
+      <xs:enumeration value="industry"/>
+      <xs:enumeration value="airport"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="installationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="none"/>
+      <xs:enumeration value="entrenchment"/>
+      <xs:enumeration value="fort"/>
+      <xs:enumeration value="antiaircraft"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="levelType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="4"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Restrictions used in Army Element -->
+  <xs:simpleType name="armyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="infantry"/>
+      <xs:enumeration value="cavalry"/>
+	  <xs:enumeration value="machine gun"/>
+      <xs:enumeration value="artillery"/>
+      <xs:enumeration value="panzer"/>
+      <xs:enumeration value="tank"/>
+      <xs:enumeration value="destroyer"/>
+      <xs:enumeration value="cruiser"/>
+      <xs:enumeration value="battleship"/>
+      <xs:whiteSpace value="preserve"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="armyLevelType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="11"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="cardsType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="15"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definition of attributes -->
+  <xs:attributeGroup name="battleGroup">
+    <xs:attribute name="map" type="xs:integer" use="required"/>
+    <xs:attribute name="areasenable" type="xs:string" use="optional"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="listGroup">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="countryGroup">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="ai" type="xs:byte" use="required"/>
+    <xs:attribute name="money" type="xs:integer" use="required"/>
+    <xs:attribute name="industry" type="xs:integer" use="required"/>
+    <xs:attribute name="techlevel"  type="techlevelType" use="required"/>
+    <xs:attribute name="alliance"  type="allianceType" use="required"/>
+    <xs:attribute name="r" type="colorType" use="required"/>
+    <xs:attribute name="g" type="colorType" use="required"/>
+    <xs:attribute name="b" type="colorType" use="required"/>
+    <xs:attribute name="a" type="colorType" use="required"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="areaGroup">
+    <xs:attribute name="id" type="xs:integer" use="required"/>
+    <xs:attribute name="construction" type="constructionType" use="required"/>
+    <xs:attribute name="level" type="levelType" use="required"/>
+    <xs:attribute name="installation" type="installationType" use="required"/>
+    <xs:attribute name="country" type="xs:string" use="optional"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="armyGroup">
+    <xs:attribute name="type" type="armyType" use="required"/>
+    <xs:attribute name="level" type="armyLevelType" use="required"/>
+    <xs:attribute name="cards" type="cardsType" use="required"/>
+  </xs:attributeGroup>
+
+  <!-- Definition of Elements -->
+  <xs:element name="battle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="list" minOccurs="2" maxOccurs="2"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="battleGroup"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="list">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="country" maxOccurs="unbounded"/>
+        <xs:element ref="area" maxOccurs="unbounded"/>
+      </xs:choice>
+      <xs:attributeGroup ref="listGroup"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="country">
+    <xs:complexType>
+      <xs:attributeGroup ref="countryGroup"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="area">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="army" minOccurs="0" maxOccurs="4"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="areaGroup"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="army">
+    <xs:complexType>
+      <xs:attributeGroup ref="armyGroup"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

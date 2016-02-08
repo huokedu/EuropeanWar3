@@ -1,0 +1,13 @@
+c:\users\ken.ken-pc\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3\bin\Debug\EuropeanWar3.exe.config
+c:\users\ken.ken-pc\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3\bin\Debug\EuropeanWar3.exe
+c:\users\ken.ken-pc\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3\bin\Debug\EuropeanWar3.pdb
+c:\users\ken.ken-pc\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.Properties.Resources.resources
+c:\users\ken.ken-pc\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.csproj.GenerateResource.Cache
+c:\users\ken.ken-pc\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.exe
+c:\users\ken.ken-pc\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.pdb
+C:\Users\Ken.Ken-PC\Documents\Visual Studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.csprojResolveAssemblyReference.cache
+C:\Users\Ken.Ken-PC\Documents\Visual Studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.frmMain.resources
+C:\Users\Ken.Ken-PC\Documents\Visual Studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.frmCountry.resources
+C:\Users\Ken.Ken-PC\Documents\Visual Studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.frmArea.resources
+C:\Users\Ken.Ken-PC\Documents\Visual Studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.frmArmy.resources
+C:\Users\Ken.Ken-PC\Documents\Visual Studio 2013\Projects\EuropeanWar3\EuropeanWar3\obj\Debug\EuropeanWar3.frmBattle.resources

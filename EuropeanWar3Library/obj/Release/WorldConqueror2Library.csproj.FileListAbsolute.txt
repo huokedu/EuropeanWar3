@@ -1,0 +1,5 @@
+C:\Users\Ken.Ken-PC\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3Library\bin\Release\EuropeanWar3Library.dll
+C:\Users\Ken.Ken-PC\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3Library\bin\Release\EuropeanWar3Library.pdb
+C:\Users\Ken.Ken-PC\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3Library\obj\Release\EuropeanWar3Library.dll
+C:\Users\Ken.Ken-PC\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3Library\obj\Release\EuropeanWar3Library.pdb
+C:\Users\Ken.Ken-PC\documents\visual studio 2013\Projects\EuropeanWar3\EuropeanWar3Library\obj\Release\EuropeanWar3Library.csprojResolveAssemblyReference.cache

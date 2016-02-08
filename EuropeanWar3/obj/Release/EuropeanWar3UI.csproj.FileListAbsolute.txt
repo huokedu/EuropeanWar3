@@ -1,0 +1,33 @@
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\bin\Release\EuropeanWar3.exe.config
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3UI.csprojResolveAssemblyReference.cache
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.frmArea.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.frmArmy.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.frmBattle.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.frmCountry.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.frmMain.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.Properties.Resources.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3UI.csproj.GenerateResource.Cache
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\bin\Release\EuropeanWar3.exe
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\bin\Release\EuropeanWar3.pdb
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\bin\Release\EuropeanWar3Library.dll
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\bin\Release\EuropeanWar3Library.pdb
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.exe
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\WorldConqueror2\obj\Release\EuropeanWar3.pdb
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\bin\Release\EuropeanWar3.exe.config
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.exe
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.pdb
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\bin\Release\EuropeanWar3.exe
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\bin\Release\EuropeanWar3.pdb
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\bin\Release\EuropeanWar3Library.dll
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\bin\Release\EuropeanWar3Library.pdb
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3UI.csprojResolveAssemblyReference.cache
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.frmArea.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.frmArmy.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.frmBattle.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.frmCountry.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.frmMain.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.Properties.Resources.resources
+C:\Users\Ken.Ken-PC\Desktop\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3UI.csproj.GenerateResource.Cache
+C:\Users\Ken\Google 雲端硬碟\4. Computer Science\1. Programming\4. C#\1. European War 3\EuropeanWar3\EuropeanWar3\bin\Release\EuropeanWar3.exe.config
+C:\Users\Ken\Google 雲端硬碟\4. Computer Science\1. Programming\4. C#\1. European War 3\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.exe
+C:\Users\Ken\Google 雲端硬碟\4. Computer Science\1. Programming\4. C#\1. European War 3\EuropeanWar3\EuropeanWar3\obj\Release\EuropeanWar3.pdb
